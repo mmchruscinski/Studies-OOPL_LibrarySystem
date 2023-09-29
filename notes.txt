@@ -1,0 +1,17 @@
+/* class BookBorrowed:public Book{
+public:
+    BookBorrowed(string title, string author, int pagecount, string isbn):Book(title, author, pagecount, isbn){
+        catb.open("BorrowedBooks.csv", ios::app);
+        if(catb.is_open()){
+            cat << Author << ',' 
+            << Title << ',' 
+            << PageCount << ','
+            << ISBN << ','
+            << endl;
+        }
+        cout << "The book has been borrowed" << endl;
+    }
+    void bookReturn(){
+
+    }
+}; */
